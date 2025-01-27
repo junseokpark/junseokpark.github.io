@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - junseokpark
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - junseokpark/rtea
+  - junseokpark/genomeflow
+  - junseokpark/corus
+  - junseokpark/CLIPS
+  - junseokpark/RetroNet
+  - junseokpark/JET_identification_pipeline
+  - junseokpark/SMaHT
+  - junseokpark/ConceptEmbeddingModel

@@ -20,6 +20,20 @@ layout: default
             <i class="fa-solid fa-file-pdf"></i>
           </a>
         {% endif %}
+        {% if page.resume_pdf %}
+          <a
+            {% if page.resume_pdf contains '://' %}
+              href="{{ page.resume_pdf }}"
+            {% else %}
+              href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {% endif %}
       </h1>
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
@@ -58,6 +72,7 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
+          &nbsp;&nbsp;&nbsp;
           <a
             {% if page.cv_pdf contains '://' %}
               href="{{ page.cv_pdf }}"
@@ -68,6 +83,23 @@ layout: default
             rel="noopener noreferrer"
             class="float-right"
           >
+            <div style="text-align: center; font-size: 0.3em; margin-bottom: 1px;">CV</div>
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {% endif %}
+        {% if page.resume_pdf %}
+          &nbsp;&nbsp;&nbsp;
+          <a
+            {% if page.resume_pdf contains '://' %}
+              href="{{ page.resume_pdf }}"
+            {% else %}
+              href="{{ page.resume_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <div style="text-align: center; font-size: 0.3em; margin-bottom: 1px;">Resume</div>
             <i class="fa-solid fa-file-pdf"></i>
           </a>
         {% endif %}
@@ -113,6 +145,8 @@ layout: default
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
+                {% when 'patents' %}
+                  {% include resume/patents.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
