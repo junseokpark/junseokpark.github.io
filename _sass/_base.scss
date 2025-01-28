@@ -506,6 +506,11 @@ footer.sticky-bottom {
 
 // CV
 
+.list-group-item {
+  background-color: var(--list-group-item-bg-color);
+  border-color: var(--global-divider-color);
+}
+
 .cv {
   margin-bottom: 40px;
 
@@ -515,6 +520,8 @@ footer.sticky-bottom {
 
     .list-group-item {
       background-color: inherit;
+      //background-color: var(--list-group-item-bg-color);
+      //background-color: red !important;
       border-color: var(--global-divider-color);
 
       .badge {
@@ -714,8 +721,8 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-divider-bib-year-color);
+    border-top: 1px solid var(--global-divider-bib-year-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
