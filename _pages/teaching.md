@@ -42,7 +42,7 @@ nav_order: 6
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2019: Teaching Fellow</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring 2019: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Course covers C++ programming with gene database, taught by <a href="https://neuros.kaist.ac.kr/yoonkeynam.html">Yoonkey Nam</a> and <a href="https://biosoft.kaist.ac.kr/~dhlee/">Doheon Lee</a>.</li>
       <li class="list-group-item">— Decision Tree, SQL Database, Probability, Regression, and Classification </li>
@@ -63,7 +63,7 @@ nav_order: 6
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Teaching Fellow</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Spring 2018: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Course covers fundamental understanding of how modern electronic computers work, taught by <a href="https://biosoft.kaist.ac.kr/~dhlee/">Doheon Lee</a>.</li>
       <li class="list-group-item">— Lecture on Bioinformatics algorithms, Machine Learning, Data Mining, Biomedical Information Systems</li>
@@ -85,7 +85,7 @@ nav_order: 6
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Fall 2017: Teaching Fellow</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2017: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Course covers systems biology, taught by <a href="https://biosoft.kaist.ac.kr/~dhlee/">Doheon Lee</a>.</li>
       <li class="list-group-item">— Lecture on Metabolic Pathways, Signal Transduction Pathways, and Regulation Networks</li>
@@ -109,7 +109,7 @@ nav_order: 6
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">Fall 2016: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">course explores practical implementation of ideas in biology, taught by <a href="https://aibrain.kaist.ac.kr/sang-wan-lee">Sangwan Lee</a>.</li>
+      <li class="list-group-item">Course explores practical implementation of ideas in biology, taught by <a href="https://aibrain.kaist.ac.kr/sang-wan-lee">Sangwan Lee</a>.</li>
       <li class="list-group-item">— Lecture on brain science through C++ programming and fundamental data structures</li>
       <li class="list-group-item">— Lecture on Decision Tree, probability, regression, and classification </li>
       <li class="list-group-item">— Lecture implementing a program and SQL: <a href="https://www.dropbox.com/scl/fi/opmz2s9tuh2hbwhc1ev5j/_-_BiS232_2016_v4.pdf?rlkey=eg7r4nfctps0go3sn0ubvay5l&st=grk5ilyz&dl=0">a syllabus</a></li>
