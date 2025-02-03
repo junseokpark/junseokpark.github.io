@@ -375,8 +375,7 @@
       "keywords": [
         "PyTorch",
         "TensorFlow",
-        "Keras",
-        "Jax"
+        "Keras"
       ]
     }
 
