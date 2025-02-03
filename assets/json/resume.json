@@ -321,7 +321,7 @@
     {
       "name": "Programming languages",
       "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
         "R",
@@ -337,7 +337,7 @@
     {
       "name": "Computational science",
       "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-calculator",
       "keywords": [
         "Deep Learning",
         "Machine Learning",
@@ -349,7 +349,7 @@
     {
       "name": "Computing Platforms",
       "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-server",
       "keywords": [
         "On-premises HPC (Slurm/Qsub)",
         "Amazon Web Service (AWS)",
@@ -360,12 +360,23 @@
     {
       "name": "Workflow development",
       "level": "Expert",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-project-diagram",
       "keywords": [
         "WDL",
         "Snakemake",
         "Airflow",
         "Kubernetes"
+      ]
+    },
+    {
+      "name": "Deep Learning Libraries",
+      "level": "Expert",
+      "icon": "fa-solid fa-tools",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Jax"
       ]
     }
 
@@ -374,17 +385,17 @@
     {
       "language": "Korean",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     },
     {
       "language": "Japanese",
       "fluency": "Intermediate",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     }
   ],
   "interests": [
