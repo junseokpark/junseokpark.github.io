@@ -32,12 +32,28 @@
         "location": "Boston, USA",
         "summary": "Conducting statistical genetics research and biostatistics techniques to support research hypotheses derived from high-throughput DNA, RNA, and single-cell sequencing data.",
         "highlights": [
-            "Developing computational pipelines to identify disease-causing genetic variants.",
-            "Coordinating an interdisciplinary team to apply deep learning and machine learning methods.",
-            "Performing comprehensive data analysis to interpret complex biological datasets.",
-            "Ensuring quality control for genomic analyses.",
-            "Leveraging cloud computing resources for processing large-scale datasets."
+            "Developed a tool rTea to detect transposon-fusions, analyzing 13,345 RNA-seq from normal and 34 cancer types. Identified 307,793 cancer-specific fusions with ~30 events per cancer.",
+            "Employed a Generalized Linear Mixed Model to correct for six technical variables in RNA-seq data from 28 human tissue types, identifying 48% of fusions (avg 639 per sample) in testis.",
+            "Developed GenomeFlow to process large datasets on GCP, achieving a 77% cost reduction (saving $86K) in its first application compared to the initial setup.",
+            "Adopted Convolutional Neural Networks (CNNs) to detect somatic L1 insertions, achieving 0.885 precision and 0.845 recall from bulk WGS of a cancer cell line.",
+            "Used SVM to validate the RF model for utilizing zebrafish as a model of Duchenne Muscular Dystrophy, showing similar outcomes (AUROC = 0.99) to the RF model.",
+            "Customized the DRAGEN-GATK pipeline on GCP to ensure variant quality from WGS samples, supporting the identification of ATM gene mutations in six ataxia-telangiectasia cases."
         ]
+    },
+    {
+      "name": "KAIST - Bio-Synergy Research Center(BSRC)",
+      "position": "Researcher - MSc/PhD student",
+      "url": "https://www.crunchbase.com/organization/bio-synergy-research-center",
+      "location": "Daejeon, S.Korea",
+      "startDate": "2014-03",
+      "endDate": "2020-03",
+      "summary": "Developed computational frameworks for biomedical research, improving data reliability, clinical trial retrieval, biomedical term similarity, and drug-disease network analysis.",
+      "highlights": [
+          "Developed CORUS on AWS to collect participatory trial data and verified the data reliability weight index using an independent samples t-test (p < 0.011) with data from 340 participants.",
+          "Built a clinical trial protocol database system CLIPS from 184,634 trials, achieving a 35% higher F1-score (0.52) and 82% greater user satisfaction (6.5) than keyword search (2.3).",
+          "Developed a Doc2Vec model with 998,543 definitions from UMLS2015 and Wikipedia, improving biomedical term similarity by 35% and coverage by 4.77% over the Vector method.",
+          "Supported the identification of drugs with opposing effects on disease genes by combining 2,434 drug-target interactions, 166 pathways, and 364 disease genes for network analysis."
+      ]
     },
     {
         "name": "Korea Research Institute of Chemical Technology (KRICT)",

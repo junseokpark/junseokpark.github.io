@@ -1,13 +1,16 @@
 github_users:
   - junseokpark
+  - sk31park
 
 repo_description_lines_max: 2
 
 github_repos:
   - junseokpark/rtea
   - junseokpark/genomeflow
+  - junseokpark/gitwriter
   - junseokpark/corus
   - junseokpark/CLIPS
+  - sk31park/comap
   - junseokpark/RetroNet
   - junseokpark/JET_identification_pipeline
   - junseokpark/SMaHT
