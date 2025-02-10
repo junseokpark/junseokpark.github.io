@@ -3,7 +3,7 @@
     "name": "Junseok Park",
     "label": "Research Fellow",
     "image": "",
-    "email": "junseokpark.kr@gmail.com",
+    "email": "junseok.park@childrens.harvard.edu",
     "phone": "",
     "url": "https://junseokpark.github.io",
     "summary": "A computational scientist, data scientist, or bioinformatician with expertise in computer science, skilled in developing machine learning models, designing large-scale data processing pipelines, and performing statistical analyses of next-generation sequencing and multi-omic experiments from patient cohorts—ranging from single-cell to DNA and RNA sequence samples.",
@@ -32,12 +32,12 @@
         "location": "Boston, USA",
         "summary": "Conducting statistical genetics research and biostatistics techniques to support research hypotheses derived from high-throughput DNA, RNA, and single-cell sequencing data.",
         "highlights": [
-            "Developed a tool rTea to detect transposon-fusions, analyzing 13,345 RNA-seq from normal and 34 cancer types. Identified 307,793 cancer-specific fusions with ~30 events per cancer.",
-            "Employed a Generalized Linear Mixed Model to correct for six technical variables in RNA-seq data from 28 human tissue types, identifying 48% of fusions (avg 639 per sample) in testis.",
-            "Developed GenomeFlow to process large datasets on GCP, achieving a 77% cost reduction (saving $86K) in its first application compared to the initial setup.",
-            "Adopted Convolutional Neural Networks (CNNs) to detect somatic L1 insertions, achieving 0.885 precision and 0.845 recall from bulk WGS of a cancer cell line.",
-            "Used SVM to validate the RF model for utilizing zebrafish as a model of Duchenne Muscular Dystrophy, showing similar outcomes (AUROC = 0.99) to the RF model.",
-            "Customized the DRAGEN-GATK pipeline on GCP to ensure variant quality from WGS samples, supporting the identification of ATM gene mutations in six ataxia-telangiectasia cases."
+            "Developed a tool <a href='https://github.com/junseokpark/rtea'>rTea</a> to detect transposon-fusions, analyzing 13,345 RNA-seq from normal and 34 cancer types. Identified 307,793 cancer-specific fusions with ~30 events per cancer.",
+            "<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC10614793/'>Employed a Generalized Linear Mixed Model to correct for six technical variables in RNA-seq data </a> from 28 human tissue types, identifying 48% of fusions (avg 639 per sample) in testis.",
+            "Developed <a href='https://github.com/junseokpark/genomeflow'>GenomeFlow</a> to process large datasets on GCP, achieving a 77% cost reduction (saving $86K) in its first application compared to the initial setup.",
+            "Adopted <a href='https://www.biorxiv.org/content/10.1101/2024.11.07.619809v2.abstract'>Convolutional Neural Networks (CNNs) to detect somatic L1 insertions</a>, achieving 0.885 precision and 0.845 recall from bulk WGS of a cancer cell line.",
+            "Used <a href='https://www.biorxiv.org/content/10.1101/2024.12.05.627004v1.abstract'>SVM to validate the RF model for utilizing zebrafish as a model </a> of Duchenne Muscular Dystrophy, showing similar outcomes (AUROC = 0.99) to the RF model.",
+            "Customized the DRAGEN-GATK pipeline on GCP to ensure variant quality from WGS samples, supporting <a href='https://www.cell.com/cell-reports/fulltext/S2211-1247(23)01634-0?uuid=uuid%3A39f5ca51-6c22-45c7-8143-b00f835b91e7'>the identification of ATM gene mutations in six ataxia-telangiectasia cases</a>."
         ]
     },
     {
@@ -49,10 +49,10 @@
       "endDate": "2020-03",
       "summary": "Developed computational frameworks for biomedical research, improving data reliability, clinical trial retrieval, biomedical term similarity, and drug-disease network analysis.",
       "highlights": [
-          "Developed CORUS on AWS to collect participatory trial data and verified the data reliability weight index using an independent samples t-test (p < 0.011) with data from 340 participants.",
-          "Built a clinical trial protocol database system CLIPS from 184,634 trials, achieving a 35% higher F1-score (0.52) and 82% greater user satisfaction (6.5) than keyword search (2.3).",
-          "Developed a Doc2Vec model with 998,543 definitions from UMLS2015 and Wikipedia, improving biomedical term similarity by 35% and coverage by 4.77% over the Vector method.",
-          "Supported the identification of drugs with opposing effects on disease genes by combining 2,434 drug-target interactions, 166 pathways, and 364 disease genes for network analysis."
+          "Developed <a href='https://ieeexplore.ieee.org/abstract/document/9054970'>CORUS</a> on AWS to collect participatory trial data and verified the data reliability weight index using an independent samples t-test (p < 0.011) with data from 340 participants.",
+          "Built a clinical trial protocol database system <a href='https://pubmed.ncbi.nlm.nih.gov/32946464/'>CLIPS</a> from 184,634 trials, achieving a 35% higher F1-score (0.52) and 82% greater user satisfaction (6.5) than keyword search (2.3).",
+          "Developed a <a href='https://www.sciencedirect.com/science/article/pii/S1532046419301005'>Doc2Vec model</a> with 998,543 definitions from UMLS2015 and Wikipedia, improving biomedical term similarity by 35% and coverage by 4.77% over the Vector method.",
+          "Supported <a href='https://link.springer.com/article/10.1186/s12918-015-0243-2'>the identification of drugs with opposing effects on disease genes</a> by combining 2,434 drug-target interactions, 166 pathways, and 364 disease genes for network analysis."
       ]
     },
     {
